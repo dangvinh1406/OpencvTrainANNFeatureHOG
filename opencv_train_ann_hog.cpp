@@ -1,6 +1,7 @@
+#include <iostream>
+#include <vector>
 #include "objdetect.hpp"
 #include "ml.hpp"
-#include <iostream>
 
 using namespace std;
 

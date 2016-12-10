@@ -10,10 +10,14 @@ This application is about training artificial neural network using HOG feature t
 OpenCV neural network (MLP) implementation does not support categorical variables explicitly. So, instead of the output class label, we will use a binary vector of {0,0 ... 1,0,0} components (one element by class) for training and therefore, MLP will give us a vector of "probabilities" at the prediction stage - the highest probability can be accepted as the "winning" class label output by the network.
 
 # Detailed instruction
-## Combining aplication
-.......
+## Combining application
+'cd ./your_directory/OpencvTrainANNFeatureHOG' </br>
+'mkdir build' </br>
+'cd build' </br>
+'cmake ..' </br>
+'make' </br>
 
 ## Running application
-./train_HOG_ANN [positive folder] [negative folder] [width] [height] [model storing directory] </br>
+'./train_HOG_ANN [positive folder] [negative folder] [width] [height] [model storing directory]' </br>
 For more convenience, we can put all positive images and negative images to my created folders. After that, we can use the following command:
 
