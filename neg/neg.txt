@@ -1,1 +1,2 @@
 negative images here
+delete this file and put all negative images to this folder
