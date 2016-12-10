@@ -14,6 +14,6 @@ OpenCV neural network (MLP) implementation does not support categorical variable
 .......
 
 ## Running application
-./train_HOG_ANN [positive folder] [negative folder] [width] [height] [model storing directory]
+./train_HOG_ANN [positive folder] [negative folder] [width] [height] [model storing directory] </br>
 For more convenience, we can put all positive images and negative images to my created folders. After that, we can use the following command:
 
