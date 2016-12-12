@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <stdlib.h> 
+#include <stdlib.h>
+#include "core.hpp"
+#include "imgproc.hpp"
 #include "objdetect.hpp"
 #include "ml.hpp"
 
