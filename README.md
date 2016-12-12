@@ -8,7 +8,7 @@ This application is about training artificial neural network using HOG feature t
 - supporting image types: *.png, *.jpg, *.pgm
 
 </br>
-** Noted from OpenCV training ANN example **
+__ Noted from OpenCV training ANN example __
 > OpenCV neural network (MLP) implementation does not support categorical variables explicitly. So, instead of the output class label, we will use a binary vector of {0,0 ... 1,0,0} components (one element by class) for training and therefore, MLP will give us a vector of "probabilities" at the prediction stage - the highest probability can be accepted as the "winning" class label output by the network.
 
 # Detailed instruction
@@ -22,8 +22,8 @@ First of all, we need to install OpenCV 3.1 combined with extra modules as well 
 
 ### Running application
 With the application `train_HOG_ANN` the syntax of running command is: </br>
-`./train_HOG_ANN [positive folder] [negative folder] [width] [height] [model storing directory]` </br>
+`./train_ANN_HOG [positive folder] [negative folder] [width] [height] [model storing directory]` </br>
 If we follow the above combining process, we can put all positive and negative images to `pos` and `neg` folder respectively. Inside the folder `build` that contains our application, we use the command:</br>
-`./train_HOG_ANN ../pos ../neg [width] [height] ../model/annhog.model`
+`./train_ANN_HOG ../pos ../neg [width] [height] ../model/annhog.model`
 
 
